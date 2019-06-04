@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+}
+.wrapper{
+    width: 1024px;
+    margin: 0 calc(50% - 512px);
+    background-color: #e3c0d67d;
+}
+
+a{
+    display: block;
+}
+header{
+    min-height: 100px;
+    height: 300px;
+    width: 100%;
+    background-image: url(./logoback.jpg);
+    background-size: 100%;
+    border-radius: 1px;
+
+}
+.logo{
+    padding-top: 150px;
+    padding-left: 20px;
+}
+
+.menu{
+    background: radial-gradient(at top, #bcefc7, #c799b5);
+    border-radius: 5px;
+    font-size: 0;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    font-family: 'Cormorant Infant', serif;
+    margin-top: 75px;
+    text-shadow:0 0 10px #0012ff4d, 0 0 6px #00f6ff66, 0 0 10px #00ffb14d;
+}
+
+.button{
+    color: #604fcc;;
+    display: inline-block;
+    width: 20%;
+    height: 25px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+section{
+    border-radius: 5px;
+    background:  #e1c1d5;
+    width: 200px;
+    height: 35px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 19pt;
+    color: #604fcc;
+    text-shadow:0 0 10px #0012ff4d, 0 0 6px #00f6ff66, 0 0 10px #00ffb14d;
+    text-decoration: none;
+    display: inline-block;
+    
+
+}
+
+.navigation{
+    background-color: #e3c0d67d;
+    height: 130px;
+    width: 200px;
+    
+    
+}
+.block{
+    display: block;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: left;
+    text-decoration: none;
+    color: #604fcc;
+    background: linear-gradient(to top right , #c799b5, #e3c0d67d);
+    text-shadow:0 0 10px #0012ff4d, 0 0 6px #00f6ff66, 0 0 10px #00ffb14d;
+    
+}
+
+article{
+    width: 700px;
+    height: 330px;
+    font-size: 14pt;
+    text-align: center;
+    border: 3px solid pink;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-shadow:0 0 10px #0012ff4d, 0 0 6px #00f6ff66, 0 0 10px #00ffb14d;
+    color: #7d75b0;
+}
+
+footer {
+    background: linear-gradient(to top, #928cb5, #c799b5);
+    text-align: left;
+    line-height: 100px;
+    border-radius: 5px;
+    width: 1024px;
+    color: pink;
+    height: 125px;
+    text-align: center;
+}
+
+.content{
+    
+}
