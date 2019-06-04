@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0px;
 }
@@ -11,11 +14,8 @@ a{
     display: block;
 }
 header{
-    min-height: 100px;
-    height: 300px;
     width: 100%;
-    background-image: url(./logoback.jpg);
-    background-size: 100%;
+    background: url(./logoback.jpg) 50% 50% /cover;
     border-radius: 1px;
 
 }
@@ -48,8 +48,7 @@ header{
 section{
     border-radius: 5px;
     background:  #e1c1d5;
-    width: 200px;
-    height: 35px;
+    width: calc(20% - 20px);
     padding-top: 10px;
     text-align: center;
     font-size: 19pt;
@@ -57,14 +56,15 @@ section{
     text-shadow:0 0 10px #0012ff4d, 0 0 6px #00f6ff66, 0 0 10px #00ffb14d;
     text-decoration: none;
     display: inline-block;
-    
+    vertical-align: top;
+    margin: 0 10px;
 
 }
 
 .navigation{
     background-color: #e3c0d67d;
-    height: 130px;
-    width: 200px;
+    width: 100%;
+
     
     
 }
@@ -82,15 +82,15 @@ section{
 }
 
 article{
-    width: 700px;
-    height: 330px;
+    width: calc(80% - 40px);
     font-size: 14pt;
     text-align: center;
     border: 3px solid pink;
     padding: 15px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     display: inline-block;
-    margin-bottom: 20px;
+    vertical-align: top;
+    margin: 0 20px;
 }
 
 h1{
@@ -110,5 +110,6 @@ footer {
 }
 
 .content{
-    
+    margin: 10px 0;
+    font-size: 0;
 }
