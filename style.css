@@ -20,8 +20,17 @@ header{
 
 }
 .logo{
-    padding-top: 150px;
+    padding-top: 130px;
     padding-left: 20px;
+    
+}
+
+.phone{
+
+    margin-left: 170px;
+    color: #f1e0eb;
+    font-size: 16pt;
+    text-shadow: 0 0 10px #ff00bbf0, 0 0 6px #e23fd7b8, 0 0 10px #cc4f98;
 }
 
 .menu{
@@ -84,18 +93,25 @@ section{
 article{
     width: calc(80% - 40px);
     font-size: 14pt;
-    text-align: center;
+    text-align: left;
     border: 3px solid pink;
     padding: 15px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     display: inline-block;
     vertical-align: top;
     margin: 0 20px;
+    color: #5959ab;
 }
 
 h1{
     text-shadow:0 0 10px #0012ff4d, 0 0 6px #00f6ff66, 0 0 10px #00ffb14d;
     color: #7d75b0;
+    text-align: center;
+}
+
+li{
+    text-align: left;
+    list-style-type: none;
 }
 
 footer {
@@ -105,11 +121,30 @@ footer {
     border-radius: 5px;
     width: 1024px;
     color: pink;
+    text-shadow:0 0 10px #0012ff4d, 0 0 6px #00f6ff66, 0 0 10px #00ffb14d;
     height: 125px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .content{
     margin: 10px 0;
     font-size: 0;
+}
+
+figure{
+    display: block;
+    text-align: center; 
+}
+
+a:hover{
+    color: pink;
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+figcaption{
+    color: #c54585;
 }
