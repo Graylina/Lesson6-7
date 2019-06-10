@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'sony';
+    src: url('16925-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -107,6 +114,7 @@ h1{
     text-shadow:0 0 10px #0012ff4d, 0 0 6px #00f6ff66, 0 0 10px #00ffb14d;
     color: #7d75b0;
     text-align: center;
+    font-family: 'sony';   
 }
 
 li{
